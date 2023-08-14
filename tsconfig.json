@@ -20,6 +20,14 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": [
+    "src",
+    ".archive/ContentContainer.tsx",
+    ".archive/SideBar.tsx",
+    ".archive/TechStack.tsx",
+    ".archive/SectionTitle.tsx",
+    ".archive/Section.tsx",
+    ".archive/Heading.tsx"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
