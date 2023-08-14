@@ -15,7 +15,11 @@ const Select = ({ value, option, optionsList, handleChange }: SelectType) => {
       value={value}
       id={option}
       onChange={handleChange}
+      defaultValue={option}
     >
+      <option value="" selected disabled>
+        {toCapitalise(option)}
+      </option>
       {optionsList.map((opt, i) => (
         <option key={i} value={opt}>
           {toCapitalise(opt)}

@@ -1,4 +1,5 @@
 import { convertDate } from "../helpers/helpers";
+import { generateCloudinaryUrl } from "../services/cloudinary-services";
 import { ProjectProps } from "../shared/types";
 import { DeployedIcon, GithubIcon, LinkIcon } from "./Icons";
 import Li from "./layouts/Li";
@@ -15,7 +16,7 @@ const Project = ({ project }: ProjectProps) => {
 
   const availableLinks = Object.values(links).map((link) => link);
   const linksIcons = [<GithubIcon />, <DeployedIcon />, <LinkIcon />];
-  const imgUrl = new URL(`../assets/img/${image}.png`, import.meta.url).href;
+  const imgUrl = generateCloudinaryUrl(`img/${image}`);
 
   return (
     <div className="divide-y divide-slate-100 mt-8 border-t border-slate-100">

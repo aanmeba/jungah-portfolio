@@ -27,7 +27,8 @@
     ".archive/TechStack.tsx",
     ".archive/SectionTitle.tsx",
     ".archive/Section.tsx",
-    ".archive/Heading.tsx"
+    ".archive/Heading.tsx",
+    ".archive/NewProject.tsx"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
