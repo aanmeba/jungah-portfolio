@@ -7,9 +7,8 @@ const cld = new Cloudinary({
 });
 
 export const generateCloudinaryUrl = (path: string) => {
-  const version = "v1692000362/";
   const directories = "portfolio/";
-  const url = version + directories + path;
+  const url = directories + path;
   const cldImg = cld.image(url);
   return cldImg.toURL().split("?")[0] + ".png";
 };
