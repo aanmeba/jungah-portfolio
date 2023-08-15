@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Github",
+    "icon": "faGithub",
+    "link": "https://github.com/aanmeba"
+  },
+  {
+    "id": "2",
+    "name": "LinkedIn",
+    "icon": "faLinkedinIn",
+    "link": "https://www.linkedin.com/in/ajungah"
+  },
+  {
+    "id": "3",
+    "name": "Email",
+    "icon": "faEnvelope",
+    "link": "mailto:aanmeba@gamil.com"
+  },
+  {
+    "id": "4",
+    "name": "Resume",
+    "icon": "faGfaFileithub",
+    "link": "https://drive.google.com/file/d/1b8eR9PrJOdN_ClQ7sEyKQ-CA21GsfW9v/view?usp=drive_link"
+  }
+]

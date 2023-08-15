@@ -1,6 +1,7 @@
-import profileImg from "../assets/jungah_profile-circle.png";
+import { generateCloudinaryUrl } from "../services/cloudinary-services";
 
 const About = () => {
+  const profileImg = generateCloudinaryUrl("jungah_profile-circle");
   return (
     <div id="about" className="flex flex-col gap-8">
       <figure className="w-full flex justify-center">
