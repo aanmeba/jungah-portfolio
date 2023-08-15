@@ -260,7 +260,7 @@
     "title": "Fake MacOS",
     "links": {
       "github": "https://github.com/aanmeba/fake-macOS",
-      "deployed_link": "https://aanmeba.github.io/jungah/",
+      "deployed_link": "https://aanmeba.github.io/fake-macOS/",
       "other_link": ""
     },
     "description": "A web-based clone of the MacOS Monterey user inferface using HTML, SCSS and vanilla JavaScript",
