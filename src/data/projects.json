@@ -1,0 +1,354 @@
+[
+  {
+    "id": "12",
+    "title": "Movie Curation - GraphQL",
+    "links": {
+      "github": "https://github.com/aanmeba/movie_app_graphql",
+      "deployed_link": "",
+      "other_link": ""
+    },
+    "description": "A movie curation app using a custom-built GraphQL API, which wraps the existing REST API to retrieve the specific data that need in the app",
+    "date": "2022-09",
+    "tech_stack": [
+      "JavaScript", "React", "GraphQL", "PostCSS"
+    ],
+    "image": "img_movies",
+    "category": "practice"
+  },
+  {
+    "id": "11",
+    "title": "iLink",
+    "links": {
+      "github": "https://github.com/teamilink",
+      "deployed_link": "https://ilinkapp.netlify.app/",
+      "other_link": "https://www.canva.com/design/DAFIbcFDLno/EsukiCeuY-j5TS8ZnHPYrw/view?utm_content=DAFIbcFDLno&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu"
+    },
+    "description": "A full stack app inspired by Linktree using React.js for frontend and Rails API for backend, deployed with netlify for frontend and heroku for backend",
+    "date": "2022-06",
+    "tech_stack": [
+      "JavaScript", "React", "Ruby on Rails", "PostgreSQL", "PostCSS", "MUI", "Heroku", "Netlify"
+    ],
+    "image": "img_ilink",
+    "category": "project"
+  },
+  {
+    "id": "10",
+    "title": "Simple Memo App",
+    "links": {
+      "github": "https://github.com/aanmeba/simple-memo-client",
+      "deployed_link": "https://simple-memo.netlify.app/",
+      "other_link": ""
+    },
+    "description": "A full stack memo app using MERN stack, deployed with netlify for frontend and render for backend",
+    "date": "2022-06",
+    "tech_stack": [
+      "JavaScript", "TypeScript", "HTML/CSS", "React", "Node", "Express", "MongoDB Atlas", "MUI", "Render", "Netlify"
+    ],
+    "image": "img_simple",
+    "category": "project"
+  },
+  {
+    "id": "9",
+    "title": "Momentum-like To Do List",
+    "links": {
+      "github": "https://github.com/aanmeba/momentum-like-toDoList",
+      "deployed_link": "https://aanmeba.github.io/momentum-like-toDoList/",
+      "other_link": ""
+    },
+    "description": "Momentum-like to do list and clock app created by vanilla JavaScript",
+    "date": "2022-06",
+    "tech_stack": [
+      "JavaScript", "HTML/CSS"
+    ],
+    "image": "img_todos",
+    "category": "practice"
+  },
+  {
+    "id": "8",
+    "title": "iFund",
+    "links": {
+      "github": "https://github.com/aanmeba/iFund",
+      "deployed_link": "https://ifund-app.herokuapp.com/",
+      "other_link": "https://www.canva.com/design/DAE68FaJ34k/J06kXeZDUdJ3g-dRZULKEQ/view?utm_content=DAE68FaJ34k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    },
+    "description": "A two-sided crowdfunding website in which users can CRUD and donate funding projects. Uploading and retrieving images are handled using AWS S3 by controlling the access with IAM",
+    "date": "2022-03",
+    "tech_stack": [
+      "Ruby on Rails", "PostgreSQL", "Bootstrap", "Heroku"
+    ],
+    "image": "img_ifund",
+    "category": "project"
+  },
+  {
+    "id": "7",
+    "title": "Bitcoin Tracker",
+    "links": {
+      "github": "https://github.com/aanmeba/bitcoin-tracker",
+      "deployed_link": "https://aanmeba.github.io/bitcoin-tracker/",
+      "other_link": ""
+    },
+    "description": "A bitcoin tracker built in React using the basic template, fetching Coin desk API and showing 30 days of data using the Chart.js Package.",
+    "date": "2022-05",
+    "tech_stack": [
+      "JavaScript", "React", "Styled Components"
+    ],
+    "image": "img_bitcoin",
+    "category": "practice"
+  },
+  {
+    "id": "6",
+    "title": "Movie Curation",
+    "links": {
+      "github": "https://github.com/aanmeba/movie-curation",
+      "deployed_link": "https://aanmeba.github.io/movie-curation/",
+      "other_link": ""
+    },
+    "description": "A movie curation app created with React using The Movie DB API",
+    "date": "2022-06",
+    "tech_stack": [
+      "JavaScript", "React", "Styled Components"
+    ],
+    "image": "img_movie",
+    "category": "practice"
+  },
+  {
+    "id": "5",
+    "title": "Ready To Munch",
+    "links": {
+      "github": "https://github.com/aanmeba/hackathon",
+      "deployed_link": "",
+      "other_link": ""
+    },
+    "description": "Built during a hackathon, this app uses the tasty API to find and display  7 recipes randomly or depending on a keyword search",
+    "date": "2022-04",
+    "tech_stack": [
+      "JavaScript", "Bootstrap"
+    ],
+    "image": "img_reciepe",
+    "category": "project"
+  },
+  {
+    "id": "4",
+    "title": "Split The Bill",
+    "links": {
+      "github": "https://github.com/aanmeba/t1a3_termianl_app",
+      "deployed_link": "",
+      "other_link": "https://www.canva.com/design/DAEyZ5I6nrs/G_Hv7Z0hTV3Xqrfck9QiSg/view?utm_content=DAEyZ5I6nrs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    },
+    "description": "A terminal app in which users can divide the total amount with 3 options - split randomly, split equally, and split manually. Various edge cases were handled to provide the correct result, while unit tests were conducted using RSpec",
+    "date": "2021-12",
+    "tech_stack": [
+      "Ruby", "RSpec"
+    ],
+    "image": "img_terminal",
+    "category": "project"
+  },
+  {
+    "id": "3",
+    "title": "Travel App",
+    "links": {
+      "github": "https://github.com/aanmeba/udacity-travel-app",
+      "deployed_link": "",
+      "other_link": ""
+    },
+    "description": "A travel app that takes two inputs from the user, about the destination and travel date, to make asynchronous fetch calls from three APIs, GeoNames, Weatherbit, and Pixabay and return data regarding current weather and the image of the destination",
+    "date": "2021-09",
+    "tech_stack": [
+      "JavaScript", "HTML/CSS", "Webpack"
+    ],
+    "image": "img_travel",
+    "category": "practice"
+  },
+  {
+    "id": "2",
+    "title": "Weather journal App",
+    "links": {
+      "github": "https://github.com/aanmeba/udacity-weather-app",
+      "deployed_link": "https://dry-journey-77285.herokuapp.com/",
+      "other_link": ""
+    },
+    "description": "A weather web app that uses an API and user's data to dynamically update the UI using DOM",
+    "date": "2021-09",
+    "tech_stack": [
+      "JavaScript", "HTML/CSS"
+    ],
+    "image": "img_weather",
+    "category": "practice"
+  },
+  {
+    "id": "1",
+    "title": "Portfolio Website",
+    "links": {
+      "github": "https://github.com/aanmeba/Portfolio-Website",
+      "deployed_link": "https://aanmeba.github.io/Portfolio-Website/index.html",
+      "other_link": "https://www.canva.com/design/DAEvfMedIKc/97JJqBHgXkhcd7xUR-lQcg/view?utm_content=DAEvfMedIKc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    },
+    "description": "First portfolio website in the mobile first approach built using only HTML and CSS, exploring various CSS features including Grid, Flexbox, Animation, Writing mode, Transform, Keyframes, Media query, etc",
+    "date": "2021-11",
+    "tech_stack": [
+      "HTML/CSS", "SCSS"
+    ],
+    "image": "img_portfolio",
+    "category": "project"
+  },
+  {
+    "id": "13",
+    "title": "Simon Game",
+    "links": {
+      "github": "https://github.com/aanmeba/udemy-simon-game",
+      "deployed_link": "https://aanmeba.github.io/udemy-simon-game/",
+      "other_link": ""
+    },
+    "description": "A simon game created with vanilla JavaScript and provided resources",
+    "date": "2021-09",
+    "tech_stack": [
+      "JavaScript"
+    ],
+    "image": "img_simon",
+    "category": "practice"
+  },
+  {
+    "id": "14",
+    "title": "Blog",
+    "links": {
+      "github": "https://github.com/aanmeba/udacity-personal-blog",
+      "deployed_link": "https://aanmeba.github.io/udacity-personal-blog/",
+      "other_link": ""
+    },
+    "description": "A simple resposive blog to practice CSS Grid and Flexbox",
+    "date": "2021-09",
+    "tech_stack": [
+      "HTML/CSS"
+    ],
+    "image": "img_blog",
+    "category": "practice"
+  },
+  {
+    "id": "15",
+    "title": "Alertit",
+    "links": {
+      "github": "https://github.com/Evil-Bees/Alertit/pull/47",
+      "deployed_link": "",
+      "other_link": ""
+    },
+    "description": "Update the Status page styling",
+    "date": "2023-01",
+    "tech_stack": [
+      "TailwindCSS", "React", "JavaScript", "HTML/CSS"
+    ],
+    "image": "img_alertit",
+    "category": "open source"
+  },
+  {
+    "id": "16",
+    "title": "Portfolio Website",
+    "links": {
+      "github": "https://github.com/aanmeba/jungah",
+      "deployed_link": "https://aanmeba.github.io/jungah/",
+      "other_link": ""
+    },
+    "description": "A portfolio website built with HTML, SCSS and vanilla JavaScript",
+    "date": "2023-06",
+    "tech_stack": [
+      "JavaScript", "HTML/CSS", "SCSS"
+    ],
+    "image": "img_portfolio_nology",
+    "category": "project"
+  },
+  {
+    "id": "17",
+    "title": "Fake MacOS",
+    "links": {
+      "github": "https://github.com/aanmeba/fake-macOS",
+      "deployed_link": "https://aanmeba.github.io/jungah/",
+      "other_link": ""
+    },
+    "description": "A web-based clone of the MacOS Monterey user inferface using HTML, SCSS and vanilla JavaScript",
+    "date": "2023-06",
+    "tech_stack": [
+      "JavaScript", "HTML/CSS", "SCSS"
+    ],
+    "image": "img_fakeOS",
+    "category": "project"
+  },
+  {
+    "id": "18",
+    "title": "Morse Code Translator",
+    "links": {
+      "github": "https://github.com/aanmeba/morse-code-translator",
+      "deployed_link": "https://aanmeba.github.io/morse-code-translator/",
+      "other_link": ""
+    },
+    "description": "A morse code translator built with HTML",
+    "date": "2023-06",
+    "tech_stack": [
+      "JavaScript", "HTML/CSS", "SCSS"
+    ],
+    "image": "img_morse",
+    "category": "project"
+  },
+  {
+    "id": "19",
+    "title": "Boogle",
+    "links": {
+      "github": "https://github.com/aanmeba/boogle",
+      "deployed_link": "https://theboogle.netlify.app/#/",
+      "other_link": ""
+    },
+    "description": "A book search web app using the Google Books API",
+    "date": "2023-06",
+    "tech_stack": [
+      "React", "JavaScript", "HTML/CSS", "SCSS", "Material UI"
+    ],
+    "image": "img_boogle",
+    "category": "project"
+  },
+  {
+    "id": "20",
+    "title": "The Poster Shop",
+    "links": {
+      "github": "https://github.com/aanmeba/the-poster-shop",
+      "deployed_link": "https://thepostershop.netlify.app/",
+      "other_link": ""
+    },
+    "description": "An e-commerce website built with React, JavaScript, and SCSS",
+    "date": "2023-07",
+    "tech_stack": [
+      "React", "JavaScript", "HTML/CSS", "SCSS"
+    ],
+    "image": "img_poster",
+    "category": "project"
+  },
+  {
+    "id": "21",
+    "title": "Minesweeper",
+    "links": {
+      "github": "https://github.com/aanmeba/minesweeper",
+      "deployed_link": "",
+      "other_link": ""
+    },
+    "description": "A command-line interface game written in Java",
+    "date": "2023-07",
+    "tech_stack": [
+      "Java", "JUnit5"
+    ],
+    "image": "img_minesweeper",
+    "category": "project"
+  },
+  {
+    "id": "22",
+    "title": "Pokemon API",
+    "links": {
+      "github": "https://github.com/aanmeba/pokemon-backend",
+      "deployed_link": "",
+      "other_link": ""
+    },
+    "description": "A Pokemon API with CRUD functionalities written in Java and Spring",
+    "date": "2023-07",
+    "tech_stack": [
+      "Java", "Spring", "JUnit5"
+    ],
+    "image": "img_default",
+    "category": "project"
+  }
+]

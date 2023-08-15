@@ -1,5 +1,4 @@
 import contactDetail from "../data/contact.json";
-import Resume from "../assets/Jungah-Resume.pdf";
 import { EmailIcon, FileIcon, GithubIcon, LinkedInIcon } from "./Icons";
 
 const Contact = () => {
@@ -10,7 +9,7 @@ const Contact = () => {
         {contactDetail.map((item, i) => (
           <li key={item.id}>
             <a
-              href={item.name === "Resume" ? Resume : item.link}
+              href={item.link}
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none" }}

@@ -19,8 +19,8 @@ const ProjectsNavbar = ({
     <nav className="flex gap-4 text-sm justify-end max-w-4xl">
       {selectOptions.map((select, i) => (
         <Select
-          value={select === "filter" ? filterOption : sortOption}
-          option={select}
+          options={select === "filter" ? filterOption : sortOption}
+          type={select}
           key={i}
           handleChange={handleChange}
           optionsList={
