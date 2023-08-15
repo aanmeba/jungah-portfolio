@@ -2,7 +2,7 @@
 
 This portfolio website is built with React and TypeScript.
 
-## Live Portfolio 👉 []()
+## 👉 [Live Portfolio](https://jungah.netlify.app/)
 
 ## Tech Stack
 
