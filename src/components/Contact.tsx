@@ -5,17 +5,19 @@ const Contact = () => {
   const icons = [<GithubIcon />, <LinkedInIcon />, <EmailIcon />, <FileIcon />];
   return (
     <article>
-      <ul className="flex items-center m-0 pl-0 list-none gap-2">
+      <ul className="flex mx-0 pl-0 list-none justify-center gap-4 flex-wrap lg:flex-col lg:my-4 lg:gap-1 ">
         {contactDetail.map((item, i) => (
           <li key={item.id}>
             <a
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
-              style={{ textDecoration: "none" }}
-              className="text-xs"
+              className="text-xs font-mono "
             >
-              {icons[i]} {item.name}
+              <div className="inline-flex gap-3 text-slate-600">
+                <span className="w-2">{icons[i]}</span>
+                <span>{item.name}</span>
+              </div>
             </a>
           </li>
         ))}

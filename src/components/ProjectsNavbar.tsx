@@ -16,7 +16,7 @@ const ProjectsNavbar = ({
   const sortOptionsList = ["latest", "oldest"];
 
   return (
-    <nav className="flex gap-4 text-sm justify-end max-w-4xl">
+    <nav className="flex flex-wrap gap-x-4 text-sm justify-start mt-2 md:justify-end max-w-4xl">
       {selectOptions.map((select, i) => (
         <Select
           options={select === "filter" ? filterOption : sortOption}

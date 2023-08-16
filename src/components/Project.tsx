@@ -19,9 +19,9 @@ const Project = ({ project }: ProjectProps) => {
   const imgUrl = generateCloudinaryUrl(`img/${image}`);
 
   return (
-    <div className="divide-y divide-slate-100 mt-8 border-t border-slate-100">
-      <div className="px-8 py-10 w-full flex gap-8 max-w-4xl">
-        <div className="flex flex-col items-start w-2/3">
+    <div className="divide-y divide-slate-100 border-t border-slate-100">
+      <div className="px-8 py-10 w-full flex gap-8 max-w-4xl lg:mx-0 md:mx-auto">
+        <div className="flex flex-col w-full items-stretch md:items-start md:w-2/3">
           <time className="font-mono text-xs text-slate-400">
             {convertDate(date)}
           </time>
@@ -33,7 +33,7 @@ const Project = ({ project }: ProjectProps) => {
               {availableLinks.map((link, index) => {
                 if (link)
                   return (
-                    <li key={index} className="mr-1.5">
+                    <li key={index} className="mr-1.5 mt-2">
                       <a href={link} className="no-underline" target="_blank">
                         {linksIcons[index]}
                       </a>
@@ -53,7 +53,7 @@ const Project = ({ project }: ProjectProps) => {
             </ul>
           </div>
         </div>
-        <figure className="max-w-xl">
+        <figure className="max-w-xl hidden md:block">
           <img src={imgUrl} alt={title} className="max-w-xs" />
         </figure>
       </div>
