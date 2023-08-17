@@ -13,7 +13,8 @@ This portfolio website is built with React and TypeScript.
 ## Future Improvement
 
 - [ ] Implement mobile version - responsive design
-- [ ] Update About & Contact section
+- [x] Update About & Contact section
+- [ ] Add Tech Stack section in the Header
 - [ ] Store data and assets in firestore or create a custom API and fetch them once the website loads
 - [ ] Filter the projects based on the tech stack
 - [ ] 404 page

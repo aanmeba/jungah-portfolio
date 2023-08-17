@@ -11,7 +11,7 @@ type SelectType = {
 const Select = ({ options, type, optionsList, handleChange }: SelectType) => {
   return (
     <select
-      className="border-slate-200 p-2 font-mono"
+      className="border-slate-200 pl-0 pt-2 pb-2 pr-2 md:p-2 font-mono"
       value={options}
       id={type}
       onChange={handleChange}
