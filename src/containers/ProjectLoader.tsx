@@ -1,6 +1,6 @@
 import { ProjectType } from "../shared/types";
 import { filterProjects, sortProjects } from "../helpers/helpers";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import projectList from "../data/projects.json";
 import Projects from "../sections/Projects";
 
@@ -11,21 +11,18 @@ const ProjectLoader = () => {
   const [sortOption, setSortOption] = useState(defaultSort);
   const [projects, setProjects] = useState<ProjectType[]>(projectList);
 
-  useEffect(() => {
-    setSortOption(defaultSort);
-
-    // filter projects based on the original list
+  const applyFilterAndSort = useCallback(() => {
     const filteredProjects = filterProjects(projectList, filterOption);
-    setProjects([...filteredProjects]);
-  }, [filterOption]);
-
-  useEffect(() => {
-    // sort projects based on the filtered list
-    const sortedProjectsList = projects.sort((a, b) =>
+    const sortedProjects = filteredProjects.sort((a, b) =>
       sortProjects(a, b, sortOption)
     );
-    setProjects([...sortedProjectsList]);
-  }, [sortOption]);
+
+    setProjects(sortedProjects);
+  }, [filterOption, sortOption]);
+
+  useEffect(() => {
+    applyFilterAndSort();
+  }, [applyFilterAndSort]);
 
   const handleOptions = (id: string, value: string) => {
     if (id === "sort") setSortOption(value);
