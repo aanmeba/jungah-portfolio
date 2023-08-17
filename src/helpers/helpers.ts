@@ -1,7 +1,17 @@
 import { ProjectType } from "../shared/types";
 
-export const toCapitalise = (str: string): string =>
-  str.charAt(0).toUpperCase() + str.slice(1);
+export const toCapitalise = (str: string): string => {
+  if (!str.includes(" ")) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  } else {
+    const arr = str.split(" ");
+    const result: string[] = [];
+
+    arr.forEach((el) => result.push(toCapitalise(el)));
+
+    return result.join(" ");
+  }
+};
 
 export const convertDate = (date: string): string => {
   const [year, month] = date.split("-");
