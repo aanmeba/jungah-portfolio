@@ -1,9 +1,9 @@
-import Footer from "./components/Footer";
 import About from "./sections/About";
 import Header from "./components/layouts/Header";
 import MainContainer from "./components/layouts/MainContainer";
 import Contact from "./components/Contact";
 import ProjectLoader from "./containers/ProjectLoader";
+import Footer from "./components/layouts/Footer";
 
 function App() {
   return (
@@ -12,13 +12,11 @@ function App() {
         <Header>
           <About />
           <Contact />
-          <Footer />
         </Header>
         <MainContainer>
           <ProjectLoader />
         </MainContainer>
-        {/* <About /> */}
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </div>
   );
