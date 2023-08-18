@@ -8,7 +8,7 @@ import Footer from "./components/layouts/Footer";
 function App() {
   return (
     <div className="flex min-h-full">
-      <div className="w-full">
+      <div className="w-full text-navy-900">
         <Header>
           <About />
           <Contact />
