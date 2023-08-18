@@ -27,14 +27,18 @@ const Project = ({ project }: ProjectProps) => {
           </time>
 
           <div className="flex justify-between w-full">
-            <h3 className="mt-2 text-lg font-bold text-slate-900">{title}</h3>
+            <h3 className="mt-2 font-roboto text-lg font-bold ">{title}</h3>
 
             <ul className="flex items-center m-0 pl-0 list-none">
               {availableLinks.map((link, index) => {
                 if (link)
                   return (
                     <li key={index} className="mr-1.5 mt-2">
-                      <a href={link} className="no-underline" target="_blank">
+                      <a
+                        href={link}
+                        className="no-underline  hover:text-highlighter"
+                        target="_blank"
+                      >
                         {linksIcons[index]}
                       </a>
                     </li>
@@ -43,9 +47,7 @@ const Project = ({ project }: ProjectProps) => {
             </ul>
           </div>
           <div className="flex flex-col gap-4">
-            <p className="mt-1 text-base leading-7 text-slate-700">
-              {description}
-            </p>
+            <p className="mt-1 text-base leading-7  ">{description}</p>
             <ul className="flex flex-wrap">
               {techStack?.map((tech, i) => (
                 <Li item={tech} key={i} />

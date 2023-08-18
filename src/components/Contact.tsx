@@ -14,9 +14,9 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="text-xs font-mono "
             >
-              <div className="inline-flex gap-3 text-slate-600">
-                <span className="w-2">{icons[i]}</span>
-                <span>{item.name}</span>
+              <div className="inline-flex gap-3 hover:text-highlighter">
+                <span className="w-2 ">{icons[i]}</span>
+                <span className="text-slate-600">{item.name}</span>
               </div>
             </a>
           </li>
